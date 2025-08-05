@@ -10,5 +10,5 @@ uv sync
 ```
 
 ```
-python main.py
+streamlit run main.py
 ```
