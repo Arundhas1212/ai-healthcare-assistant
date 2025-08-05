@@ -1,6 +1,6 @@
 import streamlit as st
 from core.scenarios import SCENARIOS
-from core.analyzer import analyze_response
+from ai.analyzer import analyze_response
 
 def main():
     st.set_page_config(page_title="AI Healthcare Assistant", layout="wide")
