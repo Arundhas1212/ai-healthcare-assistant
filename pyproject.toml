@@ -1,14 +1,39 @@
 [project]
 name = "ai-healthcare-assisstant"
 version = "1.0.0"
-description = "AI Healthcare Assistant - Practice your healthcare communication skills with realistic scenarios"
+description = "AI Healthcare Assistant - Practice your healthcare communication skills with realistic scenarios using text and voice input"
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [
     {name = "ysskrishna", email = "sivasaikrishnassk@gmail.com"}
 ]
-keywords = ["healthcare", "ai", "artificial-intelligence", "communication", "training", "medical", "clinical", "patient-care", "healthcare-education", "medical-training", "ai-assistant", "streamlit", "google-genai", "healthcare-communication", "medical-scenarios", "clinical-skills", "healthcare-practice", "medical-education", "ai-healthcare", "healthcare-ai"]
+keywords = [
+    "healthcare", 
+    "ai", 
+    "artificial-intelligence", 
+    "communication", 
+    "training", 
+    "medical", 
+    "healthcare-education", 
+    "medical-training", 
+    "ai-assistant", 
+    "streamlit", 
+    "google-genai", 
+    "healthcare-communication", 
+    "medical-scenarios", 
+    "clinical-skills", 
+    "healthcare-practice", 
+    "medical-education", 
+    "ai-healthcare", 
+    "healthcare-ai", 
+    "voice-transcription", 
+    "speech-recognition", 
+    "voice-input", 
+    "speech-to-text", 
+    "voice-analysis", 
+    "medical-voice-training"
+]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Healthcare Industry",
