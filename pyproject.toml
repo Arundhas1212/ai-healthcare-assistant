@@ -1,11 +1,31 @@
 [project]
 name = "ai-healthcare-assisstant"
 version = "1.0.0"
-description = "Add your description here"
+description = "AI Healthcare Assistant - Practice your healthcare communication skills with realistic scenarios"
 readme = "README.md"
 requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "ysskrishna", email = "sivasaikrishnassk@gmail.com"}
+]
+keywords = ["healthcare", "ai", "artificial-intelligence", "communication", "training", "medical", "clinical", "patient-care", "healthcare-education", "medical-training", "ai-assistant", "streamlit", "google-genai", "healthcare-communication", "medical-scenarios", "clinical-skills", "healthcare-practice", "medical-education", "ai-healthcare", "healthcare-ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Healthcare Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
 dependencies = [
     "google-genai>=1.28.0",
     "python-dotenv>=1.1.1",
     "streamlit>=1.47.1",
 ]
+
+[project.urls]
+Homepage = "https://github.com/ysskrishna/ai-healthcare-assisstant"
+Repository = "https://github.com/ysskrishna/ai-healthcare-assisstant.git"
+Documentation = "https://github.com/ysskrishna/ai-healthcare-assisstant#readme"
+"Bug Tracker" = "https://github.com/ysskrishna/ai-healthcare-assisstant/issues"
