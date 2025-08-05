@@ -40,7 +40,7 @@ def main():
         st.markdown("[LinkedIn Profile](https://linkedin.com/in/ysskrishna)")
     
     if st.sidebar.button("📁 View Source", type="primary", key="repo_link"):
-        st.markdown("[Repository](https://github.com/ysskrishna/ai-healthcare-assisstant)")
+        st.markdown("[Repository](https://github.com/ysskrishna/ai-healthcare-assistant)")
 
 
     

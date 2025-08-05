@@ -80,8 +80,8 @@ assessment/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ysskrishna/ai-healthcare-assisstant.git
-   cd ai-healthcare-assisstant
+   git clone https://github.com/ysskrishna/ai-healthcare-assistant.git
+   cd ai-healthcare-assistant
    ```
 
 2. **Set up virtual environment and install dependencies**

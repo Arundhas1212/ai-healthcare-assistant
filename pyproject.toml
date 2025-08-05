@@ -1,5 +1,5 @@
 [project]
-name = "ai-healthcare-assisstant"
+name = "ai-healthcare-assistant"
 version = "1.0.0"
 description = "AI Healthcare Assistant - Practice your healthcare communication skills with realistic scenarios using text and voice input"
 readme = "README.md"
@@ -52,7 +52,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ysskrishna/ai-healthcare-assisstant"
-Repository = "https://github.com/ysskrishna/ai-healthcare-assisstant.git"
-Documentation = "https://github.com/ysskrishna/ai-healthcare-assisstant#readme"
-"Bug Tracker" = "https://github.com/ysskrishna/ai-healthcare-assisstant/issues"
+Homepage = "https://github.com/ysskrishna/ai-healthcare-assistant"
+Repository = "https://github.com/ysskrishna/ai-healthcare-assistant.git"
+Documentation = "https://github.com/ysskrishna/ai-healthcare-assistant#readme"
+"Bug Tracker" = "https://github.com/ysskrishna/ai-healthcare-assistant/issues"
