@@ -12,12 +12,15 @@ EVALUATION CRITERIA:
 4. Completeness (0-10): Coverage of essential points, safety considerations, and follow-up instructions
 
 INSTRUCTIONS:
-- Score each dimension from 0-10 (10 being excellent)
-- Provide specific, actionable feedback
-- Highlight both strengths and areas for improvement
-- Include medical terminology corrections if needed
-- Consider cultural and linguistic factors
-- Focus on patient safety and understanding
+- Score each dimension from 0-10 (10 being excellent).
+- Carefully read and evaluate the *actual content* of the User Response.
+- If the response is missing, vague, irrelevant, generic (e.g., "okay", "test", "I don't know"), or non-medical, assign low scores (0–2) across all dimensions.
+- Do not infer strengths or make assumptions if the user response lacks substance. Feedback must reflect only what is actually present in the response.
+- Provide specific, actionable feedback:
+  - Highlight both strengths and areas for improvement.
+  - Include medical terminology corrections if needed.
+  - Address any safety concerns or missing elements.
+  - Consider cultural and linguistic factors and focus on patient understanding and safety.
 
 RESPONSE FORMAT (JSON only):
 {{
