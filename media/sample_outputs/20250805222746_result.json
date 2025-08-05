@@ -1,0 +1,31 @@
+{
+  "scenario_id": 1,
+  "user_response": "hello is this India",
+  "ai_response_json": {
+    "scores": {
+      "medical_accuracy": 0,
+      "clarity": 1,
+      "empathy": 1,
+      "completeness": 0
+    },
+    "feedback": {
+      "strengths": [],
+      "improvements": [
+        "Start with a warm greeting and introduce yourself, stating your role. For example: 'Hello, welcome! My name is [Your Name], and I'm a [Your Role] here.'",
+        "Confirm the patient's identity using at least two identifiers (e.g., name and date of birth).",
+        "Acknowledge the patient's nervousness. 'I understand this might be a bit nerve-wracking, but we'll take things slowly.'",
+        "Use simple, clear language and speak slowly. Avoid jargon.",
+        "Clarify whether the patient meant their name is India or if they're asking if this location is India. The response is confusing.",
+        "Immediately after the greeting, transition to confirming why they are here. 'Can you tell me a little about why you're visiting us today?'",
+        "Consider offering the assistance of an interpreter if communication is difficult. 'Would you be more comfortable speaking with an interpreter present?'",
+        "Ensure the patient feels heard and understood by actively listening and summarizing their concerns."
+      ],
+      "medical_corrections": [],
+      "safety_considerations": [
+        "Miscommunication can lead to medical errors. Prioritize clear and effective communication strategies, including the use of qualified interpreters when needed.",
+        "Confirm patient understanding before proceeding with any medical history gathering or examination."
+      ]
+    },
+    "overall_score": 0.5
+  }
+}

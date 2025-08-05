@@ -1,6 +1,7 @@
 import streamlit as st
 from core.scenarios import SCENARIOS
 from ai.analyzer import analyze_store_response
+from ai.voice_utils import voice_input_widget
 
 def main():
     st.set_page_config(page_title="AI Healthcare Assistant", layout="wide")
@@ -49,22 +50,37 @@ def main():
     st.write(selected_scenario['description'])
     
     st.markdown("---")
-    user_response = st.text_area(
-        "Enter your response to this scenario:",
-        height=200,
-        placeholder="Type your response here..."
+    
+    # Input mode selection
+    input_mode = st.radio(
+        "Choose input method:",
+        ["Text Input", "Voice Input"],
+        horizontal=True
     )
     
+    user_response = ""
+    
+    if input_mode == "Voice Input":
+        voice_input_widget()
+    else:
+        user_response = st.text_area(
+            "Enter your response to this scenario:",
+            height=200,
+            placeholder="Type your response here..."
+        )
+    
     if st.button("Analyze Response", type="primary"):
-        if user_response.strip():
-            with st.spinner("Analyzing your response..."):
-                analysis = analyze_store_response(selected_scenario_id, user_response)
-                
-                st.markdown("---")
-                st.subheader("📊 Analysis Results")
-                st.write(analysis)
+        if input_mode == "Text Input" and user_response.strip():
+            analysis = analyze_store_response(selected_scenario_id, user_response)
+        elif input_mode == "Voice Input" and st.session_state.transcribed_text:
+            analysis = analyze_store_response(selected_scenario_id, st.session_state.transcribed_text)
         else:
             st.error("Please enter a response before analyzing.")
+        
+        with st.spinner("Analyzing your response..."):
+            st.markdown("---")
+            st.subheader("📊 Analysis Results")
+            st.write(analysis)
 
 if __name__ == "__main__":
     main()
