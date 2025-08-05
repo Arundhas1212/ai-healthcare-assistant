@@ -5,3 +5,4 @@ load_dotenv()
 
 class Config:
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+    OUTPUT_DIR = os.getenv("OUTPUT_DIR")

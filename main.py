@@ -1,6 +1,6 @@
 import streamlit as st
 from core.scenarios import SCENARIOS
-from ai.analyzer import analyze_response
+from ai.analyzer import analyze_store_response
 
 def main():
     st.set_page_config(page_title="AI Healthcare Assistant", layout="wide")
@@ -29,7 +29,7 @@ def main():
     if st.button("Analyze Response", type="primary"):
         if user_response.strip():
             with st.spinner("Analyzing your response..."):
-                analysis = analyze_response(selected_scenario_id, user_response)
+                analysis = analyze_store_response(selected_scenario_id, user_response)
                 
                 st.markdown("---")
                 st.subheader("📊 Analysis Results")
