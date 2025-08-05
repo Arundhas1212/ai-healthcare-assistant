@@ -1,0 +1,28 @@
+{
+  "scenario_id": 1,
+  "user_response": "Hello! My name is Dr. Siva, and I'm really glad you're here today. Please don\u2019t worry \u2014 you\u2019re in a safe space. what brings you here today? ",
+  "ai_response_json": {
+    "scores": {
+      "medical_accuracy": 1,
+      "clarity": 6,
+      "empathy": 7,
+      "completeness": 3
+    },
+    "feedback": {
+      "strengths": [
+        "The opening is welcoming and reassuring ('I'm really glad you're here today. Please don\u2019t worry \u2014 you\u2019re in a safe space.') This immediately attempts to address the patient's nervousness.",
+        "The use of 'safe space' is intended to be empathetic."
+      ],
+      "improvements": [
+        "While reassuring, the opening lacks specific strategies to aid communication given the patient's broken English and nervousness. Consider offering simpler language or a translator.",
+        "Move beyond a single open-ended question. Given the language barrier, start with simple, direct questions.",
+        "The response is incomplete. It does not address the language barrier proactively or gather sufficient initial information."
+      ],
+      "medical_corrections": [],
+      "safety_considerations": [
+        "The limited information gathered presents a safety concern. Without understanding the patient's medical history or chief complaint, appropriate care cannot be provided."
+      ]
+    },
+    "overall_score": 4.25
+  }
+}

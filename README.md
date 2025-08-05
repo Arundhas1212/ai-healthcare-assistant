@@ -8,6 +8,10 @@
 
 An interactive web application that helps healthcare professionals practice their communication skills through realistic patient scenarios. Built with Streamlit and powered by Google's Generative AI, this tool provides instant feedback on medical communication responses.
 
+
+![AI Healthcare Assistant Landing Page](media/landing.png)
+![AI-Powered Response Analysis Interface](media/analysis.png)
+
 ## 🏥 Features
 
 - **Realistic Healthcare Scenarios**: Practice with common patient interactions including:
