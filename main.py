@@ -69,18 +69,21 @@ def main():
             placeholder="Type your response here..."
         )
     
-    if st.button("Analyze Response", type="primary"):
+    if st.button(f"Analyze {input_mode} Response", type="primary"):
         if input_mode == "Text Input" and user_response.strip():
-            analysis = analyze_store_response(selected_scenario_id, user_response)
+            with st.spinner("Analyzing your text response..."):
+                text_analysis = analyze_store_response(selected_scenario_id, user_response)
+                st.markdown("---")
+                st.subheader("📊 Text Analysis Results")
+                st.write(text_analysis)
         elif input_mode == "Voice Input" and st.session_state.transcribed_text:
-            analysis = analyze_store_response(selected_scenario_id, st.session_state.transcribed_text)
+            with st.spinner("Analyzing your voice response..."):
+                voice_analysis = analyze_store_response(selected_scenario_id, st.session_state.transcribed_text)
+                st.markdown("---")
+                st.subheader("📊 Voice Analysis Results")
+                st.write(voice_analysis)
         else:
-            st.error("Please enter a response before analyzing.")
-        
-        with st.spinner("Analyzing your response..."):
-            st.markdown("---")
-            st.subheader("📊 Analysis Results")
-            st.write(analysis)
+            st.error("Please provide a valid response via text or voice before analyzing.")
 
 if __name__ == "__main__":
     main()
