@@ -1,0 +1,26 @@
+{
+  "scenario_id": 1,
+  "user_response": "I am a great doctor I would help you out please do not",
+  "ai_response_json": {
+    "scores": {
+      "medical_accuracy": 1,
+      "clarity": 2,
+      "empathy": 2,
+      "completeness": 1
+    },
+    "feedback": {
+      "strengths": [],
+      "improvements": [
+        "This response lacks a welcoming tone and doesn't create a comfortable environment for a new, nervous patient. It's important to start by acknowledging the patient's presence and reassuring them.",
+        "The language used is too informal and could be perceived as unprofessional. Avoid making generalized statements about your abilities as a doctor. Focus on demonstrating care and competence through your words and actions.",
+        "The response doesn't gather any information about the patient's reason for the visit. It's crucial to elicit the patient's chief complaint and relevant history.",
+        "Consider using a calmer, more reassuring tone. Acknowledge their nervousness and speak slowly and clearly. If there is a language barrier, consider if a translator would be appropriate."
+      ],
+      "medical_corrections": [],
+      "safety_considerations": [
+        "Failing to gather information about the patient's condition is a significant safety concern. It is essential to understand the reason for the visit before offering any assistance or reassurance."
+      ]
+    },
+    "overall_score": 1.5
+  }
+}

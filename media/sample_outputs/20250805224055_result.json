@@ -1,0 +1,30 @@
+{
+  "scenario_id": 1,
+  "user_response": "Hello! My name is Dr. Siva, and I'm really glad you're here today. Please don't worry. you're in a safe space. what brings you here today?",
+  "ai_response_json": {
+    "scores": {
+      "medical_accuracy": 0,
+      "clarity": 7,
+      "empathy": 8,
+      "completeness": 4
+    },
+    "feedback": {
+      "strengths": [
+        "The introduction is friendly and welcoming, using a reassuring tone.",
+        "The phrase 'you're in a safe space' is a good way to establish trust, especially considering the patient's nervousness."
+      ],
+      "improvements": [
+        "While 'what brings you here today?' is a standard question, consider rephrasing it to be more easily understood, given the language barrier. For example, 'How can I help you today?' might be clearer.",
+        "The response is incomplete. It lacks an offer of assistance with language or clarification of instructions, considering the patient speaks 'broken English'.",
+        "The response is missing an acknowledgement of the patient's nervousness, like, 'I see you're a little nervous, which is perfectly normal for a first visit.'",
+        "The response needs to explore further on how the patient is feeling and what are their worries about."
+      ],
+      "medical_corrections": [],
+      "safety_considerations": [
+        "Consider offering a translator or using visual aids to ensure the patient fully understands instructions and medical information. Patient safety is compromised if there is a misunderstanding about medication or treatment plans.",
+        "It is important to assess the patient's understanding of their condition and treatment. Ask the patient to repeat back instructions to ensure proper understanding."
+      ]
+    },
+    "overall_score": 4.75
+  }
+}
