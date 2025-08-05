@@ -3,11 +3,11 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
 [![Google AI](https://img.shields.io/badge/Google%20AI-Gemini-orange.svg)](https://ai.google.dev/)
-[![Speech Recognition](https://img.shields.io/badge/Speech%20Recognition-Google%20API-lightblue.svg)](https://cloud.google.com/speech-to-text)
+[![Speech Recognition](https://img.shields.io/badge/Speech%20Recognition-lightblue.svg)](https://pypi.org/project/SpeechRecognition/)
 [![UV](https://img.shields.io/badge/UV-Package%20Manager-green.svg)](https://docs.astral.sh/uv/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-An interactive web application that helps healthcare professionals practice their communication skills through realistic patient scenarios. Built with Streamlit and powered by Google's Generative AI, this tool provides instant feedback on medical communication responses through both text and voice input methods.
+Practice medical communication with AI-powered text & voice feedback. This Streamlit app uses Google Generative AI to simulate patient scenarios and deliver instant, intelligent evaluations.
 
 
 ![AI Healthcare Assistant - Text Input](media/text_input.png)
